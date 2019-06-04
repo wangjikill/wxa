@@ -380,7 +380,7 @@ this.utils.compareVersion('1.1.0', '1.1.0'); // 0
 
 ```javascript
 // 获取地理位置
-let {latitude, longtitude} = await this.$wxapi.getLocation({type: 'wgs84'});
+let {latitude, longitude} = await this.$wxapi.getLocation({type: 'wgs84'});
 // 扫一扫
 let res = await this.$wxapi.scanCode();
 // 登录接口
